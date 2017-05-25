@@ -246,6 +246,24 @@
     <None Include="Project_Readme.html" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TestRepoBL\TestRepoBL.csproj">
+      <Project>{91c23e42-d093-45e8-bf33-5adfaf32ef36}</Project>
+      <Name>TestRepoBL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TestRepoDL\TestRepoDL.csproj">
+      <Project>{60f3812b-5295-4abd-8f1f-b5072258d96d}</Project>
+      <Name>TestRepoDL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TestRepoEntity\TestRepoEntity.csproj">
+      <Project>{3a52c43f-210d-4f0f-af0f-5b7f493204a5}</Project>
+      <Name>TestRepoEntity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TestRepoInt\TestRepoInt.csproj">
+      <Project>{f10d1d8c-337e-46aa-8087-60dec4360a86}</Project>
+      <Name>TestRepoInt</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
