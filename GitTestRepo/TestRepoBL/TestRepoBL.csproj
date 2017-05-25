@@ -43,6 +43,16 @@
     <Compile Include="UserBL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TestRepoEntity\TestRepoEntity.csproj">
+      <Project>{3a52c43f-210d-4f0f-af0f-5b7f493204a5}</Project>
+      <Name>TestRepoEntity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TestRepoInt\TestRepoInt.csproj">
+      <Project>{f10d1d8c-337e-46aa-8087-60dec4360a86}</Project>
+      <Name>TestRepoInt</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
