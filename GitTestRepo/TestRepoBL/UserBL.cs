@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TestRepoDL
+namespace TestRepoBL
 {
-    public class Class1
+    public class UserBL : TestRepoInt.BusinessLayer.IUserBL
     {
     }
 }
