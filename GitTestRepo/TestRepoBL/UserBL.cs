@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TestRepoBL
 {
-    public public class UserBL
+    public class UserBL : TestRepoInt.BusinessLayer.IUserBL
     {
     }
 }

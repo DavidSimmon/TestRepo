@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TestRepoDL
 {
-    public public class UserDL
+    public class UserDL : TestRepoInt.DataLayer.IUserDL
     {
     }
 }
