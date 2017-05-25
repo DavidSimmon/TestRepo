@@ -8,5 +8,8 @@ namespace TestRepoInt.DataLayer
 {
     public interface IUserDL
     {
+        TestRepoEntity.User Get(int id);
+        IList<TestRepoEntity.User> List();
+        void Save(TestRepoEntity.User user);
     }
 }
