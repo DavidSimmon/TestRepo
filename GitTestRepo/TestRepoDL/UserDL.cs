@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TestRepoDL
 {
-    public class Class1
+    public public class UserDL
     {
     }
 }

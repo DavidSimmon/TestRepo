@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TestRepoBL
 {
-    public class Class1
+    public public class UserBL
     {
     }
 }

@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TestRepoInt
+namespace TestRepoInt.DataLayer
 {
-    public class Class1
+    public interface IUserDL
     {
     }
 }
