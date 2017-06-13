@@ -8,5 +8,6 @@ namespace TestRepoBL
 {
     public class Class1
     {
+        //Test
     }
 }
